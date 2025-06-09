@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneMinuteTbilisi - The Podcast</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Use Inter as the default font */
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        /* Simple animation for cards and buttons on hover */
+        .hover-effect {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .hover-effect:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <div class="container mx-auto px-6 py-12 md:py-20">
+
+        <!-- Header Section -->
+        <header class="text-center mb-16">
+            <h1 class="text-5xl md:text-7xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-red-500 to-red-600 mb-4">
+                OneMinuteProjector
+            </h1>
+            <p class="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto">
+                Your daily dose of Projector in sixty seconds. Discover the stories, sounds, and secrets of a school, one minute at a time.
+            </p>
+        </header>
+
+        <!-- Main Content Section -->
+        <main>
+            <!-- Social Link Section -->
+            <section class="text-center mb-16">
+                 <a href="https://www.instagram.com/oneminutetbilisi" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    class="inline-flex items-center gap-3 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-white font-bold py-4 px-8 rounded-full shadow-lg hover-effect focus:outline-none focus:ring-4 focus:ring-red-300 dark:focus:ring-red-900">
+                    <!-- Instagram SVG Icon -->
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M12.315 2c-4.42 0-7.8 3.38-7.8 7.8s3.38 7.8 7.8 7.8 7.8-3.38 7.8-7.8S16.735 2 12.315 2zM8.71 6.574a.423.423 0 11.846 0 .423.423 0 01-.846 0zm3.605 1.042a4.634 4.634 0 100 9.268 4.634 4.634 0 000-9.268zm0 7.468a2.834 2.834 0 110-5.668 2.834 2.834 0 010 5.668z" clip-rule="evenodd"/>
+                        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.838 7.874c.02.138.03.277.03.418 0 4.136-3.14 8.91-8.91 8.91a8.87 8.87 0 01-4.793-1.4c.245.03.49.044.74.044a6.29 6.29 0 003.896-1.342 3.144 3.144 0 01-2.934-2.177c.138.015.277.03.418.03.324 0 .64-.044.936-.118a3.144 3.144 0 01-2.515-3.08v-.044c.447.248.964.4 1.51.418A3.14 3.14 0 015.1 6.55c0-.66.177-1.284.478-1.823a8.918 8.918 0 006.46 3.28c-.06-.248-.09-.504-.09-.768 0-1.848 1.492-3.34 3.34-3.34.963 0 1.83.404 2.44 1.048a6.19 6.19 0 001.98-.768 3.11 3.11 0 01-1.368 1.718 6.273 6.273 0 001.792-.49v-.015c-.001.002-.001.002 0 0z"/>
+                    </svg>
+                    Follow on Instagram
+                </a>
+            </section>
+
+            <!-- Latest Episodes Section -->
+            <section>
+                <h2 class="text-3xl font-bold text-center mb-10">Latest Episodes</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    
+                    <!-- Episode Card 1 -->
+                    <div class="bg-gray-800 rounded-lg overflow-hidden hover-effect">
+                        <img src="https://placehold.co/600x400/1a202c/d1d5db?text=Episode+3" alt="Podcast episode artwork" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="font-bold text-xl mb-2">The Sounds of the Dezerter Bazaar</h3>
+                            <p class="text-gray-400 text-sm mb-4">A sensory journey through Tbilisi's most vibrant market.</p>
+                            <button class="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300">
+                                Play
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Episode Card 2 -->
+                    <div class="bg-gray-800 rounded-lg overflow-hidden hover-effect">
+                        <img src="https://placehold.co/600x400/1a202c/d1d5db?text=Episode+2" alt="Podcast episode artwork" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="font-bold text-xl mb-2">A Secret Courtyard in Sololaki</h3>
+                            <p class="text-gray-400 text-sm mb-4">Discovering a hidden gem behind an unassuming door.</p>
+                            <button class="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300">
+                                Play
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Episode Card 3 -->
+                    <div class="bg-gray-800 rounded-lg overflow-hidden hover-effect">
+                        <img src="https://placehold.co/600x400/1a202c/d1d5db?text=Episode+1" alt="Podcast episode artwork" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="font-bold text-xl mb-2">Rike Park at Sunrise</h3>
+                            <p class="text-gray-400 text-sm mb-4">The city awakens. A minute of peace before the bustle begins.</p>
+                            <button class="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300">
+                                Play
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="text-center text-gray-500 mt-20">
+            <p>&copy; 2025 OneMinuteProjector. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
